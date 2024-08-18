@@ -1,0 +1,14 @@
+<app-header [Titulo]="titulo"></app-header>
+
+<ion-content padding>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let c of [1,1,1,1,1,1,1,1,1,1,1,1] let i = index">
+        {{ i +1 }}
+      </ion-col>
+      
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

@@ -1,0 +1,17 @@
+
+<app-header [Titulo]="Titulo || 'Alert Page'"></app-header>
+
+
+<ion-content>
+    <h4 style="text-align: center;">Ejemplo de alerts</h4>
+    <br>
+    <ion-button color="primary" expand="full" (click)="presentAlert()">Primary</ion-button>
+    <ion-button color="secondary" expand="full" (click)="presentAlertMultipleButtons()">Secondary</ion-button>
+    <ion-button color="tertiary" expand="full" (click)="presentAlertConfirm()">Tertiary</ion-button>
+    <ion-button color="success" expand="full" (click)="presentAlertPrompt()">Success</ion-button>
+    <ion-button color="warning" expand="full" (click)="presentAlertRadio()">Warning</ion-button>
+    <ion-button color="danger" expand="full" (click)="presentAlertCheckbox()">Danger</ion-button>
+    <ion-button color="light" expand="full" (click)="CambiarNombre()">Light</ion-button>
+    <ion-button color="medium" expand="full">Medium</ion-button>
+    <ion-button color="dark" expand="full">Dark</ion-button>
+</ion-content>
